@@ -8,7 +8,22 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 25px;
-	max-width: 320px;
+	width: 375px;
+}
+
+section {
+	margin-bottom: 80px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0);
 }
 
 header {
@@ -18,7 +33,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
 .logo {
@@ -28,7 +42,7 @@ header {
 
 .logo-text {
 	display: block;
-	
+
 	text-transform: uppercase;
 	font-weight: 700;
 	font-style: italic;
@@ -75,11 +89,15 @@ header {
 	max-width: 335px;
 	background-repeat: no-repeat;
 	background-position-x: 70%;
-	margin: 0 auto;
-	min-height: 620px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 80px;
 	border-radius: 5%;
+}
 
-	
+.container-hero {
+	padding-top: 395px;
+	padding-bottom: 20px;
 }
 
 .title {
@@ -96,8 +114,7 @@ header {
 .hero-buttons {
 	display: flex;
 	gap: 14px;
-	flex-wrap: wrap;
-	
+	margin-bottom: 32px;
 }
 
 .button {
@@ -116,8 +133,9 @@ header {
 	border-radius: 100px;
 	color: #ffffff;
 	font-family: "Montserrat", sans-serif;
-	text-align: start;
 	text-wrap: nowrap;
+	font-size: 14px;
+	line-height: 1.25;
 }
 
 .hero-link {
@@ -136,10 +154,96 @@ header {
 
 .scroll-down-link {
 	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.17;
+	letter-spacing: -0.03em;
 }
 
 .scroll-icon {
 	background-color: #ffffff;
 	border-radius: 50%;
+	align-items: center;
+	padding: 7px;
+	vertical-align: middle;
+}
+
+.scroll-icon {
+	fill: #fd9222;
+}
+
+.advantages-container {
+	background-color: #1e1823;
+	padding-bottom: 20px;
+}
+.advantages-wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.advantages-block:last-child {
+	margin-bottom: 16px;
+}
+
+.advantages-icon {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	padding: 17px;
+	margin-bottom: 22px;
+}
+
+.advantages-subtitle {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.22;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 18px;
+}
+
+.advantages-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.07px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	display: block;
+	max-width: 308px;
+	color: rgba(255, 255, 255, 0.7);
+	max-width: 308px;
+}
+
+.advantages-block {
+}
+
+.adds-title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -0.03em;
+	text-align: center;
+	max-width: 283px;
+	margin-bottom: 32px;
+}
+
+.adds-title span {
+	color: #fd9222;
+}
+
+.adds-block {
+	
+}
+
+.arrow-btn {
+	border-color: initial;
+	border: 1px solid #FD9222;
+	border-radius: 50%;
+	
+}
+
+.adds-block svg {
+	fill: #fd9222;
 	
 }
