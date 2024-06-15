@@ -672,10 +672,19 @@ header {
 	margin-bottom: 4px;
 }
 
-.modal-input:focus {
-	color: #4c4c4c;
-	
+.modal-input {
+	height: 45px;
+	width: 100%;
+	border: 1.5px solid #1111110D;
+	border-radius: 8px;
+	box-shadow: 0px 5.44px 5.44px 0px #00000008;
+	outline: transparent;
+	background-color: transparent;
+	padding-left: 43px;
+}
 
+.modal-input:focus {
+	border: 1.5px solid #FD9222;
 }
 
 .policy-link {
