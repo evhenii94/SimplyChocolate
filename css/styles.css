@@ -628,7 +628,9 @@ header {
 }
 
 .modal-container {
-	padding: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 32px;
 }
 
 .modal-title {
@@ -639,12 +641,21 @@ header {
 	text-align: left;
 	text-transform: uppercase;
 	margin-bottom: 32px;
+	max-width: 255px;
+	
 }
 
 .close-btn {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 14px;
+	right: 14px;
+	background-color: transparent;
+	border: none;
+
+}
+
+.x-xlose-image {
+	stroke: #000 ;
 }
 
 .modal-form-block {
@@ -681,10 +692,30 @@ header {
 	outline: transparent;
 	background-color: transparent;
 	padding-left: 43px;
+
 }
 
 .modal-input:focus {
 	border: 1.5px solid #FD9222;
+	
+}
+
+.input-block {
+	position: relative;
+}
+
+.modal-input:focus + .input-icon {
+	stroke: #FD9222;
+}
+
+.input-icon {
+	position: absolute;
+	stroke: #404040;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 5%;
+	fill: transparent;
+
 }
 
 .policy-link {
