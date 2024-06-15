@@ -1,0 +1,4 @@
+{
+	"editor.maxTokenizationLineLength": 20000,
+	"editor.wordWrapColumn": 20
+}
