@@ -10,7 +10,7 @@ svg {
 	cursor: pointer;
 }
 
-input:focus::placeholder ,
+input:focus::placeholder,
 textarea:focus::placeholder {
 	opacity: 0;
 }
@@ -643,6 +643,20 @@ section {
 	margin-bottom: 32px;
 }
 
+.title-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #111111;
+	display: none;
+	margin-bottom: 50px;
+	max-width: 486px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .arrow-btn {
 	display: block;
 	width: 24px;
@@ -872,6 +886,14 @@ section {
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 32px;
+	}
+
+	.adds-title {
+		max-width: 412px;
+	}
+
+	.title-text {
+		display: block;
 	}
 
 	.adds-block {
@@ -1583,10 +1605,10 @@ input[type="checkbox"]:checked + .privacy-text > .privacy-policy-checkbox {
 }
 
 footer a:hover,
-	footer a:focus {
-		color: #fd9222;
-		cursor: pointer;
-	}
+footer a:focus {
+	color: #fd9222;
+	cursor: pointer;
+}
 
 .footer-title {
 	font-size: 24px;
