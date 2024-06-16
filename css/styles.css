@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 375px;
@@ -37,7 +36,27 @@ section {
 	clip: rect(0 0 0 0);
 }
 
+/* --------------------------MEDIA TABLETS  MAIN-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS MAIN-------------------------- */
+
+/* --------------------------MEDIA DESKTOP MAIN-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP MAIN-------------------------- */
+
 /* --------------------------HEADER-------------------------- */
+
+
 
 .header-container {
 	display: flex;
@@ -122,6 +141,24 @@ section {
 
 /* --------------------------HEADER-------------------------- */
 
+/* --------------------------MEDIA TABLETS  HEADER-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS HEADER-------------------------- */
+
+/* --------------------------MEDIA DESKTOP HEADER-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP HEADER-------------------------- */
+
 /* --------------------------HEADER MOBILE MENU-------------------------- */
 
 .mobile-menu {
@@ -196,6 +233,23 @@ section {
 }
 
 /* --------------------------HEADER MOBILE MENU-------------------------- */
+
+/* --------------------------MEDIA TABLETS  M MENU-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+/* --------------------------MEDIA TABLETS M MENU-------------------------- */
+
+/* --------------------------MEDIA DESKTOP M MENU-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP M MENU-------------------------- */
 
 /* --------------------------HERO-------------------------- */
 
@@ -289,6 +343,24 @@ section {
 
 /* --------------------------HERO-------------------------- */
 
+/* --------------------------MEDIA TABLETS  HERO-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS HERO-------------------------- */
+
+/* --------------------------MEDIA DESKTOP HERO-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP HERI-------------------------- */
+
 /* --------------------------ADVANTAGES-------------------------- */
 
 .advantages-container {
@@ -338,6 +410,24 @@ section {
 }
 
 /* --------------------------ADVANTAGES-------------------------- */
+
+/* --------------------------MEDIA TABLETS  ADVANTAGES-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS ADVANTAGES-------------------------- */
+
+/* --------------------------MEDIA DESKTOP ADVANTAGES-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP ADVANTAGES-------------------------- */
 
 /* --------------------------ADDS-------------------------- */
 
@@ -406,18 +496,22 @@ section {
 	padding-right: 28px;
 	padding-left: 28px;
 	padding-top: 32px;
-
-	&:hover {
-		background-color: white;
-		border: 1px solid #fd9222;
-		.back-adds {
-			transform: perspective(295px) rotateY(0);
-		}
-		.front-adds {
-			transform: perspective(295px) rotateY(-180deg);
-		}
-	}
 }
+
+.adds-block:hover .front-adds {
+	transform: perspective(600px) rotateY(-180deg);
+}
+
+
+.adds-block:hover .back-adds {
+	transform: perspective(600px) rotateY(0);
+}
+.adds-block:hover {
+	background-color: #ffffff;
+	border: 1px solid #fd9222;
+	border-radius: 15px;
+}
+
 
 .adds-block-wraper {
 	position: relative;
@@ -433,7 +527,7 @@ section {
 	position: absolute;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	transition: tranform 0.5s ease;
+	transition: transform 0.5s ease;
 	top: 0;
 	left: 0;
 }
@@ -519,6 +613,24 @@ section {
 
 /* --------------------------ADDS-------------------------- */
 
+/* --------------------------MEDIA TABLETS  ADDS-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS ADDS-------------------------- */
+
+/* --------------------------MEDIA DESKTOP ADDS-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP ADDS-------------------------- */
+
 /* --------------------------MADE-------------------------- */
 
 .made-title {
@@ -577,6 +689,24 @@ section {
 }
 
 /* --------------------------MADE-------------------------- */
+
+/* --------------------------MEDIA TABLETS  MADE-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS MADE-------------------------- */
+
+/* --------------------------MEDIA DESKTOP MADE-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP MADE-------------------------- */
 
 /* --------------------------PRODUCTS-------------------------- */
 
@@ -653,6 +783,24 @@ section {
 }
 
 /* --------------------------PRODUCTS-------------------------- */
+
+/* --------------------------MEDIA TABLETS  PRODUCTS-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS PRODUCTS-------------------------- */
+
+/* --------------------------MEDIA DESKTOP PRODUCTS-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP PRODUCTS-------------------------- */
 
 /* --------------------------TOP SELLERS-------------------------- */
 
@@ -733,6 +881,24 @@ section {
 
 /* --------------------------TOP SELLERS-------------------------- */
 
+/* --------------------------MEDIA TABLETS  TOP SELLERS-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS TOP SELLERS-------------------------- */
+
+/* --------------------------MEDIA DESKTOP TOP SELLERS-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP TOP SELLERS-------------------------- */
+
 /* --------------------------COMMENTS-------------------------- */
 
 .comment-title {
@@ -803,6 +969,25 @@ section {
 }
 
 /* --------------------------COMMENTS-------------------------- */
+
+
+/* --------------------------MEDIA TABLETS  COMMENTS-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS COMMENTS-------------------------- */
+
+/* --------------------------MEDIA DESKTOP COMMENTS-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP COMMENTS-------------------------- */
 
 /* --------------------------COMMENTS MODAL-------------------------- */
 
@@ -986,6 +1171,25 @@ input[type="checkbox"]:checked + .privacy-text > .privacy-policy-checkbox {
 
 /* --------------------------COMMENTS MODAL-------------------------- */
 
+
+/* --------------------------MEDIA TABLETS COMMENTS MODAL-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+	}
+
+
+/* --------------------------MEDIA TABLETS COMMENTS MODAL-------------------------- */
+
+/* --------------------------MEDIA DESKTOP COMMENTS MODAL-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+
+/* --------------------------MEDIA DESKTOP COMMENTS MODAL-------------------------- */
+
 /* --------------------------FOOTER-------------------------- */
 
 .footer-container {
@@ -1124,3 +1328,20 @@ input[type="checkbox"]:checked + .privacy-text > .privacy-policy-checkbox {
 }
 
 /* --------------------------FOOTER-------------------------- */
+
+
+/* --------------------------MEDIA TABLETS FOOTER-------------------------- */
+
+@media screen and (min-width: 768px) {
+
+}
+
+/* --------------------------MEDIA TABLETS FOOTER-------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+	}
+
+/* --------------------------MEDIA DESKTOP FOOTER-------------------------- */
+
+/* --------------------------MEDIA DESKTOP FOOTER-------------------------- */
